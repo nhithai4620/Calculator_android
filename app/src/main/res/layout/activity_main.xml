@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#3C3B3B">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="115dp"
+        android:layout_margin="15dp"
+        android:layout_marginTop="30dp"
+        android:background="#676464"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="0"
+            android:textColor="#FF9800"
+            android:textSize="32sp"></TextView>
+    </RelativeLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="566dp"
+        android:padding="15dp">
+
+        <TableRow android:layout_marginVertical="10dp">
+
+            <Button
+                android:layout_marginHorizontal="4dp"
+                android:padding="8dp"
+                android:text="%"
+                android:textColor="#FF9800"
+                android:textSize="26sp"
+                app:backgroundTint="#2E2D2D"
+                android:onClick="buttonClick"></Button>
+
+            <Button
+                android:layout_marginHorizontal="4dp"
+                android:padding="8dp"
+                android:text="CE"
+                android:textColor="#FF9800"
+                android:textSize="26sp"
+                app:backgroundTint="#2E2D2D"
+                android:onClick="buttonClick">
+
+            </Button>
+
+            <Button
+                android:layout_marginHorizontal="4dp"
+                android:padding="8dp"
+                android:text="C"
+                android:textColor="#FF9800"
+                android:textSize="26sp"
+                app:backgroundTint="#2E2D2D"
+                android:onClick="buttonClick">
+
+            </Button>
+
+            <Button
+                android:layout_marginHorizontal="4dp"
+                android:padding="8dp"
+                android:text="AC"
+                android:textColor="#0C0C0C"
+                android:textSize="26sp"
+                app:backgroundTint="#FF9800"
+                android:onClick="buttonClick"></Button>
+        </TableRow>
+
+        <TableRow android:layout_marginVertical="10dp">
+
+            <Button
+                android:layout_marginHorizontal="4dp"
+                android:padding="8dp"
+                android:text="7"
+                android:textColor="#FF9800"
+                android:textSize="26sp"
+                app:backgroundTint="#2E2D2D"
+                android:onClick="buttonClick"></Button>
+
+            <Button
+                android:layout_marginHorizontal="4dp"
+                android:padding="8dp"
+                android:text="8"
+                android:textColor="#FF9800"
+                android:textSize="26sp"
+                app:backgroundTint="#2E2D2D"
+                android:onClick="buttonClick">
+
+            </Button>
+
+            <Button
+                android:layout_marginHorizontal="4dp"
+                android:padding="8dp"
+                android:text="9"
+                android:textColor="#FF9800"
+                android:textSize="26sp"
+                app:backgroundTint="#2E2D2D"
+                android:onClick="buttonClick">
+
+            </Button>
+
+            <Button
+                android:layout_marginHorizontal="4dp"
+                android:padding="8dp"
+                android:text="X"
+                android:textColor="#0C0C0C"
+                android:textSize="26sp"
+                app:backgroundTint="#FF9800"
+                android:onClick="buttonClick">
+
+            </Button>
+        </TableRow>
+
+        <TableRow android:layout_marginVertical="10dp">
+
+            <Button
+                android:layout_marginHorizontal="4dp"
+                android:padding="8dp"
+                android:text="4"
+                android:textColor="#FF9800"
+                android:textSize="26sp"
+                app:backgroundTint="#2E2D2D"
+                android:onClick="buttonClick"></Button>
+
+            <Button
+                android:layout_marginHorizontal="4dp"
+                android:padding="8dp"
+                android:text="5"
+                android:textColor="#FF9800"
+                android:textSize="26sp"
+                app:backgroundTint="#2E2D2D"
+                android:onClick="buttonClick">
+
+            </Button>
+
+            <Button
+                android:layout_marginHorizontal="4dp"
+                android:padding="8dp"
+                android:text="6"
+                android:textColor="#FF9800"
+                android:textSize="26sp"
+                app:backgroundTint="#2E2D2D"
+                android:onClick="buttonClick">
+
+            </Button>
+
+            <Button
+                android:layout_marginHorizontal="4dp"
+                android:padding="8dp"
+                android:text="-"
+                android:textColor="#0C0C0C"
+                android:textSize="26sp"
+                app:backgroundTint="#FF9800"
+                android:onClick="buttonClick">
+
+            </Button>
+        </TableRow>
+
+        <TableRow android:layout_marginVertical="10dp">
+
+            <Button
+                android:layout_marginHorizontal="4dp"
+                android:padding="8dp"
+                android:text="1"
+                android:textColor="#FF9800"
+                android:textSize="26sp"
+                app:backgroundTint="#2E2D2D"
+                android:onClick="buttonClick"></Button>
+
+            <Button
+                android:layout_marginHorizontal="4dp"
+                android:padding="8dp"
+                android:text="2"
+                android:textColor="#FF9800"
+                android:textSize="26sp"
+                app:backgroundTint="#2E2D2D"
+                android:onClick="buttonClick">
+
+            </Button>
+
+            <Button
+                android:layout_marginHorizontal="4dp"
+                android:padding="8dp"
+                android:text="3"
+                android:textColor="#FF9800"
+                android:textSize="26sp"
+                app:backgroundTint="#2E2D2D"
+                android:onClick="buttonClick">
+
+            </Button>
+
+            <Button
+                android:layout_marginHorizontal="4dp"
+                android:padding="8dp"
+                android:text="+"
+                android:textColor="#0C0C0C"
+                android:textSize="26sp"
+                app:backgroundTint="#FF9800"
+                android:onClick="buttonClick">
+
+            </Button>
+        </TableRow>
+
+        <TableRow android:layout_marginVertical="10dp">
+
+            <Button
+                android:layout_marginHorizontal="4dp"
+                android:padding="8dp"
+                android:text="/"
+                android:textColor="#FF9800"
+                android:textSize="26sp"
+                app:backgroundTint="#2E2D2D"
+                android:onClick="buttonClick"></Button>
+
+            <Button
+                android:layout_marginHorizontal="4dp"
+                android:padding="8dp"
+                android:text="0"
+                android:textColor="#FF9800"
+                android:textSize="26sp"
+                app:backgroundTint="#2E2D2D"
+                android:onClick="buttonClick">
+
+            </Button>
+
+            <Button
+                android:layout_marginHorizontal="4dp"
+                android:padding="8dp"
+                android:text="."
+                android:textColor="#FF9800"
+                android:textSize="26sp"
+                app:backgroundTint="#2E2D2D"
+                android:onClick="buttonClick">
+
+            </Button>
+
+            <Button
+                android:layout_marginHorizontal="4dp"
+                android:padding="8dp"
+                android:text="="
+                android:textColor="#0C0C0C"
+                android:textSize="26sp"
+                app:backgroundTint="#FF9800"
+                android:onClick="buttonClick">
+
+            </Button>
+        </TableRow>
+
+    </TableLayout>
+
+
+</LinearLayout>
